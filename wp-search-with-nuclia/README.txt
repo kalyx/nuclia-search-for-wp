@@ -1,24 +1,24 @@
 === WP Search With Nuclia ===
 Contributors: Kalyx
-Tags: Search, Nuclia, relevant search, search highlight, faceted search, search by category, ajax search, better search, custom search
-Requires at least: 5.0
+Tags: Search, Nuclia, relevant search, search highlight, faceted search, ajax search, better search, custom search
+Requires at least: 5.6
 Tested up to: 6.1.1
 Requires PHP: 7.2
 Stable tag: 1.0.0
 License: GNU General Public License v2.0, MIT License
 
-Improve search on your site.
+Optimize your WordPress search with Nuclia's AI powered search API.
 
 == Description ==
 
 Improve search on your site.
 
 = Features =
-* Relevant search results in milliseconds
-* Native typo-tolerance
-* Is language-agnostic
+* Push your content to NucliaDB for indexing
+* Nuclia searchbox widget
+* Nuclia searchbox shortcode
 
-This plugin requires a Nuclia account. You can sign up for a free trial at [Nuclia](https://nuclia.com).
+This plugin requires a Nuclia account. You can sign up for free at [Nuclia](https://nuclia.com).
 
 = Links =
 * [Nuclia](https://nuclia.com)
@@ -48,6 +48,9 @@ From your WordPress dashboard:
 
 = About Nuclia =
 
+Nuclia is an easy-to-use & low-code API enabling developers to build AI-powered search engines for any data and any data-source in minutes — while not having to worry about scalability, data indexing and the high learning curves and implementation of complex search systems.
+
+== Screenshots ==
 
 == Changelog ==
 
