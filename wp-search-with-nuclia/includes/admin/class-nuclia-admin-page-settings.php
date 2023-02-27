@@ -269,7 +269,7 @@ class Nuclia_Admin_Page_Settings {
 		if ( $settings->get_api_is_reachable() ) :
 		?>
         <div class="notice notice-success"> 
-        <p><strong><span class="dashicons dashicons-saved" style="color:#090;"></span> You can start indexing your site.</strong></p>
+        <p><strong><span class="dashicons dashicons-saved" style="color:#090;"></span> <?php _e("You can start indexing your site.", 'wp-search-with-nuclia' ); ?></strong></p>
         </div>
         <?php
 		endif;
