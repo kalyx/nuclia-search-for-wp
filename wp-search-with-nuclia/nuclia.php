@@ -3,7 +3,7 @@
  * Plugin Name:       WP Search With Nuclia
  * Plugin URI:        https://kalyx.fr
  * Description:       Integrate the powerful Nuclia search service with WordPress
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.6
  * Requires PHP:      7.2
  * Author:            Serge Rauber
