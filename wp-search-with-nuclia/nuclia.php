@@ -22,7 +22,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // The Nuclia Search plugin version.
-define( 'NUCLIA_VERSION', '1.0.0' );
+define( 'NUCLIA_VERSION', '1.0.1' );
 
 // The minmum required PHP version.
 define( 'NUCLIA_MIN_PHP_VERSION', '7.2' );
