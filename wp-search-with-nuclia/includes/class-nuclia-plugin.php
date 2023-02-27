@@ -209,12 +209,17 @@ class Nuclia_Plugin {
 		);
 		
 		// for attachments
+		// https://docs.nuclia.dev/docs/quick-start/push/#push-a-cloud-based-file
 		if ( $post->post_type == 'attachment' ) :
+			$mime_type = get_post_mime_type( $post->ID );
 			$body = array_merge( $body, array(
-				'icon' => get_post_mime_type( $post->ID ),
-				'links' => array( 
-					'file--1' => array(
+				'icon' => $mime_type,
+				'files' => array( 
+					$post->post_name => array(
+						'file' => array(
 						'uri' => wp_get_attachment_url( $post->ID ),
+							'content_type' => $mime_type
+						)
 					)
 				)
 			));
