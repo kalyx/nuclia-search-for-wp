@@ -215,7 +215,7 @@ class Nuclia_Admin_Page_Settings {
 		$setting       = $settings->get_token();
 		?>
 		<input type="password" name="nuclia_token" class="regular-text" value="<?php echo esc_attr( $setting ); ?>" />
-		<p class="description" id="home-description"><?php esc_html_e( 'Your Nuclia Service Access token (kept private).', 'wp-search-with-nuclia' ); ?></p>
+		<p class="description" id="home-description"><?php esc_html_e( 'Your Nuclia Service Access token with Contributor access (kept private).', 'wp-search-with-nuclia' ); ?></p>
 		<?php
 	}
 
@@ -550,7 +550,7 @@ class Nuclia_Admin_Page_Settings {
 	public function print_settings_section() {
 		echo '<p>' . wp_kses_post( sprintf( __('The zone, token, knowledge base id can be found or configured at your Nuclia cloud account. Please sign up at %1s and sign in at %2s'),
 			'<a href="https://nuclia.cloud/user/login" target="blank">https://nuclia.cloud/user/login</a>',
-            '<a href="https://nuclia.com/sign-up" target="blank">https://nuclia.com/sign-up/</a>'
+            '<a href="https://nuclia.com/sign-up" target="blank">https://nuclia.com/sign-up</a>'
         )) . '</p>';
 		echo '<p>' . esc_html__( 'Once you provide your Nuclia Zone and API key, this plugin will be able to securely communicate with Nuclia servers.', 'wp-search-with-nuclia' ) . ' ' . esc_html__( 'We ensure your information is correct by testing them against the Nuclia servers upon save.', 'wp-search-with-nuclia' ) . '</p>';
 		$settings = $this->plugin->get_settings();

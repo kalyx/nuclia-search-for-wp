@@ -106,7 +106,7 @@ msgid "Your Nuclia Zone. Default: europe-1"
 msgstr ""
 
 #: includes/admin/class-nuclia-admin-page-settings.php:218
-msgid "Your Nuclia Service Access token (kept private)."
+msgid "Your Nuclia Service Access token with Contributor access (kept private)."
 msgstr ""
 
 #: includes/admin/class-nuclia-admin-page-settings.php:232
