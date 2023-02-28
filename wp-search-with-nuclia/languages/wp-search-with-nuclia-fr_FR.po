@@ -118,8 +118,8 @@ msgid "Your Nuclia Zone. Default: europe-1"
 msgstr "Votre zone Nuclia. Par défaut: europe-1"
 
 #: includes/admin/class-nuclia-admin-page-settings.php:218
-msgid "Your Nuclia Service Access token (kept private)."
-msgstr "Votre jeton d'accès à l'API Nuclia."
+msgid "Your Nuclia Service Access token with Contributor access (kept private)."
+msgstr "Votre jeton d'accès à l'API Nuclia avec accès Contributeur."
 
 #: includes/admin/class-nuclia-admin-page-settings.php:232
 msgid "Your Nuclia Knowledge box UID (must be public)."
